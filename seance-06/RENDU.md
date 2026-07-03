@@ -1,10 +1,9 @@
 # Rendu : Séance 6
 
-**Nom et prénom :** Denis AKPAGNONITE
-**Identifiant GitHub :** <votre-username>
-**Date de soumission :** <JJ/MM/AAAA>
-
-## Résumé de la séance
+* [ ] **Nom et prénom :** GNAZOUYOUFEI Samto
+  **Identifiant GitHub :** <votre-username></votre>Samfresh09
+  **Date de soumission :**  09/07/2026
+* [ ] Résumé de la séance
 
 Airflow déployé via Docker Compose aux côtés de MinIO et Spark. Un premier DAG
 simple (`hello_anfa`) a servi à comprendre la mécanique, puis un DAG métier
@@ -22,18 +21,23 @@ propagation d'échec ont été observés via un bug volontaire.
 ## Captures d'écran
 
 ### UI Airflow après connexion (vue d'accueil)
+
 ![Airflow Home](captures/airflow-home.png)
 
 ### DAG hello_anfa exécuté en succès
+
 ![Hello Anfa](captures/hello-anfa-graph.png)
 
 ### DAG anfa_pipeline_quotidien complet en succès
+
 ![Pipeline Anfa](captures/pipeline-anfa-graph.png)
 
 ### Logs de la tâche `verifier_resultats`
+
 ![Logs verifier](captures/logs-verifier-resultats.png)
 
 ### Démonstration du retry : tâche en échec et propagation
+
 ![Retry et échec](captures/retry-failed.png)
 
 ## Réflexion personnelle
