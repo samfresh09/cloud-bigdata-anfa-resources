@@ -19,8 +19,6 @@ from anfa_logic import (  # noqa: E402
 )
 
 
-
-
 def test_construire_cle_trajets_valeur_par_defaut():
     """Sans argument, la clé doit pointer vers trajets/trajets_recent.csv"""
     assert construire_cle_trajets() == "trajets/trajets_recent.csv"
