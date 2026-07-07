@@ -21,6 +21,8 @@ __pycache__/
 .ruff_cache/
 .coverage
 htmlcov/
+seance-06/logs/
+
 
 .ipynb_checkpoints/
 
