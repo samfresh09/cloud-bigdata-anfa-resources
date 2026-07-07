@@ -39,8 +39,8 @@ def verifier_liste_fichiers(objets: list) -> dict:
 
 def construire_message_notification(resume: dict) -> str:
     """Construit le message de notification à partir du résumé de vérification."""
-    return (
-        f"Pipeline Anfa terminé avec succès : "
-        f"{resume['nb_fichiers']} fichier(s), "
-        f"{resume['taille_totale_ko']} Ko au total."
-    )
+    return {
+        "nb_fichiers": nb_fichiers,
+        "taille_totale_ko": round(taille_totale_octets / 1000, 1), # ← BUG : 1000 au lieu de 1024
+    }
+
