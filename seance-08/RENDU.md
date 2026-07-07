@@ -1,8 +1,8 @@
 # Rendu — Séance 8
 
-**Nom et prénom :** <Votre nom complet>
-**Identifiant GitHub :** <votre-username>
-**Date de soumission :** <JJ/MM/AAAA>
+**Nom et prénom :** <Votre nom complet></votre>GNAZOUYOUFEI Samto
+**Identifiant GitHub :** <votre-username></votre>Samfresh09
+**Date de soumission :** <07/07/2026>
 
 ## Résumé de la séance
 
@@ -19,9 +19,11 @@
 ## Captures d'écran
 
 ### Workflow réussi (2 jobs)
+
 ![CI succès](captures/ci-succes.png)
 
 ### Job en échec, déploiement non exécuté
+
 ![CI échec](captures/ci-echec.png)
 
 ## Réflexion personnelle
