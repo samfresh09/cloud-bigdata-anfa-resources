@@ -1,8 +1,8 @@
 # Rendu — Séance 7
 
-**Nom et prénom :** <Votre nom complet>
-**Identifiant GitHub :** <votre-username>
-**Date de soumission :** <JJ/MM/AAAA>
+**Nom et prénom :** <Votre nom complet></votre> GNAZOUYOUFEI Samto
+**Identifiant GitHub :** <votre-username></votre>Samfresh09
+**Date de soumission :** 07/07/2026
 
 ## Résumé de la séance
 
@@ -21,18 +21,23 @@ tolérance aux pannes observée, Spark Structured Streaming consommant et agrég
 ## Captures d'écran
 
 ### 3 brokers actifs dans Kafka UI
+
 ![Brokers actifs](captures/kafka-ui-brokers.png)
 
 ### Débit de messages en augmentation
+
 ![Débit messages](captures/kafka-ui-debit.png)
 
 ### Cluster avec 2 brokers sur 3 (après arrêt volontaire)
+
 ![2 brokers sur 3](captures/kafka-ui-2-brokers.png)
 
 ### Micro-batchs affichés en console par Spark
+
 ![Console Spark Streaming](captures/spark-streaming-console.png)
 
 ### Résultats agrégés dans MinIO
+
 ![MinIO agregats](captures/minio-agregats.png)
 
 ## Réflexion personnelle
