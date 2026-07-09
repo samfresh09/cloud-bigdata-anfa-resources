@@ -1,13 +1,13 @@
 # Rendu — Séance 9
 
-**Nom et prénom :** <Votre nom complet>
-**Identifiant GitHub :** <votre-username>
-**Date de soumission :** <JJ/MM/AAAA>
+**Nom et prénom :** <Votre nom complet></votre>GNAZOUYOUFEI Samto
+**Identifiant GitHub :** <votre-username></votre>Samfresh09
+**Date de soumission :** <09/07/2026>
 
 ## Résumé de la séance
 
-<2-4 lignes : stack Prometheus/Grafana déployée, exportateur de fraîcheur Anfa
-instrumenté, dashboard construit, alerte configurée et déclenchée sur panne simulée.>
+* [ ] <2-4 lignes : stack Prometheus/Grafana déployée, exportateur de fraîcheur Anfa
+  instrumenté, dashboard construit, alerte configurée et déclenchée sur panne simulée.>
 
 ## Étapes principales
 
@@ -21,12 +21,15 @@ instrumenté, dashboard construit, alerte configurée et déclenchée sur panne 
 ## Captures d'écran
 
 ### Les 4 cibles Prometheus à l'état UP
+
 ![Targets](captures/prometheus-targets.png)
 
 ### Dashboard "Node Exporter Full" importé
+
 ![Node Exporter Dashboard](captures/grafana-node-exporter.png)
 
 ### Alerte à l'état Firing après panne simulée
+
 ![Alerte Firing](captures/grafana-alerte-firing.png)
 
 ## Réflexion personnelle
